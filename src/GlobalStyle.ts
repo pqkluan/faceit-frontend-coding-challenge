@@ -10,6 +10,8 @@ const GlobalStyle = createGlobalStyle`
     background: ${theme.palette.background.body};
     color: ${theme.palette.text.primary};
     ${theme.typography.body};
+    padding-left: ${theme.spacing(3)};
+    padding-right:${theme.spacing(3)};
   }
 `;
 
